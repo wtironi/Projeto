@@ -21,3 +21,5 @@ jobs:
         with:
           branch: gh-pages  # Faz o deploy na branch gh-pages
           folder: public  # Pasta que será enviada para o GitHub Pages
+  with:
+    personal_token: ${{ secrets.GITHUB_TOKEN }}
